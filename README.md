@@ -1,4 +1,4 @@
-# Lab4_COVID19Polymorphism
+# HW3: Deque Fires
 
 Please visit <a href = "http://www.ctralie.com/Teaching/CS174_F2020/Assignments/HW3_DequeFires/">this link</a> for more information.
 
