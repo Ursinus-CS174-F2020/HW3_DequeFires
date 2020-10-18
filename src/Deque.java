@@ -62,7 +62,9 @@ public class Deque<Item> {
     
     /**
      * Return how many elements are currently stored in the deque.
-     * This method should run in constant time
+     * This method should run in constant time.
+     * The easiest way to do this is by storing a private variable 
+     * that tracks the size as different operations are performed.
      * @return Number of elements stored in the deque
      */
     public int size() {
@@ -74,7 +76,7 @@ public class Deque<Item> {
      * Return an array representation of the items in the deque.
      * If there are N elements, the array should be of length N.
      * Because of some Java weirdness, we have to return an array of
-     * type Object instead of type Item, but everything is a subclass
+     * type Object instead of type Item, but ever class is a subclass
      * of Object, so the cast will happen automatically upon assignment
      * @return An array of items in this deque
      */
@@ -85,7 +87,9 @@ public class Deque<Item> {
     
     /**
      * Clear the entire deque
-     * This should run in constant time
+     * This should run in constant time (Hint: you should
+     * just have to set your head/tail to null, and everything
+     * in the collection will be dereferenced)
      */
     public void clear() {
         // TODO: Fill this in
